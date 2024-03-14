@@ -5,8 +5,8 @@
 Does the job require the current stack that you know. Would you have learn new skills?
 What goals would you like to achieve in the hypothetical position?
 Do you currently have the skillsets for the job?
-// Peer Reviewed By :
-// Peer Comment: 
+// Peer Reviewed By : Jayvon Khuth
+// Peer Comment: Website looks clean, I like the format and even the use of tabs for his sections of the jobs. Each description for the tabs is descriptive and well worded. Also it meets the requirements for the challenge. Everything works well, I couldn't break anything. The only thing I can say to improve is the color choices, for example the gray is a kind of hard to see with the white background and everything, but thats an easy fix. Also I don't know if its possible because he used a group card component, but there should be alt tags for the images
 
 # Getting Started with Create React App
 
