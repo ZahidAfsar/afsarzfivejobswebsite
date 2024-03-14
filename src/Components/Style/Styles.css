@@ -31,6 +31,13 @@
     color: #FF0000;
 }
 
+.titleGray{
+    font-size: 60px;
+    font-weight: bolder;
+    color: darkgrey;
+}
+
+
 .titleDiscord{
     font-size: 60px;
     font-weight: bolder;

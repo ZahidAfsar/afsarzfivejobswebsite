@@ -35,6 +35,7 @@ function HomePageComponent() {
 
   return (
     <>
+    <h1 className='text-center titleGray' >5 Jobs that Interest Me</h1>
     <Container className='my-4' >
     <Row xs={1} md={2} className="g-4">
       {Array.from({ length: 4 }).map((_, idx) => (

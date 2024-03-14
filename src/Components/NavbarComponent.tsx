@@ -24,7 +24,7 @@ function NavbarComponent() {
                 <Nav.Link className='mx-3 hover' as={Link} to='/CodeStack'>CodeStack</Nav.Link>
           </Nav>
           <Nav.Link>
-            <a href={"https://docs.google.com/document/d/1Op2L1tRLZZ4lw0tp_Anym8CxvQF1ompDR_Isrmwsxjw/edit?usp=sharing"}>
+            <a href="https://docs.google.com/document/d/1Op2L1tRLZZ4lw0tp_Anym8CxvQF1ompDR_Isrmwsxjw/edit?usp=sharing" target="_blank">
             <img className='Logo mx-3 my-3' src={PdfPng} alt='Pdf Img Link' />
             </a>
           </Nav.Link>
