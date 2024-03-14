@@ -1,3 +1,13 @@
+// Zahid Afsar
+// 3 - 14 - 24
+// 5 Jobs website
+// Dive into why you want to work there (culture, benefits, hybrid, location)
+Does the job require the current stack that you know. Would you have learn new skills?
+What goals would you like to achieve in the hypothetical position?
+Do you currently have the skillsets for the job?
+// Peer Reviewed By :
+// Peer Comment: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
