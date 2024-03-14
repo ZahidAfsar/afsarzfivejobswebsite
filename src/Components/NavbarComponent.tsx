@@ -17,14 +17,14 @@ function NavbarComponent() {
           <img className='Logo my-3 mx-3' src={HomePng} alt='homePng'/>
         </Nav.Link>
           <Nav className='m-auto'>
-                <Nav.Link className='mx-3' as={Link} to='/Adobe'>Adobe</Nav.Link>
-                <Nav.Link className='mx-3' as={Link} to='/Discord'>Discord</Nav.Link>
-                <Nav.Link className='mx-3' as={Link} to='/Cisco'>Cisco</Nav.Link>
-                <Nav.Link className='mx-3' as={Link} to='/Tesla'>Tesla</Nav.Link>
-                <Nav.Link className='mx-3' as={Link} to='/CodeStack'>CodeStack</Nav.Link>
+                <Nav.Link className='mx-3 hover' as={Link} to='/Adobe'>Adobe</Nav.Link>
+                <Nav.Link className='mx-3 hover' as={Link} to='/Discord'>Discord</Nav.Link>
+                <Nav.Link className='mx-3 hover' as={Link} to='/Cisco'>Cisco</Nav.Link>
+                <Nav.Link className='mx-3 hover' as={Link} to='/Tesla'>Tesla</Nav.Link>
+                <Nav.Link className='mx-3 hover' as={Link} to='/CodeStack'>CodeStack</Nav.Link>
           </Nav>
           <Nav.Link>
-            <a href='https://docs.google.com/document/d/1Op2L1tRLZZ4lw0tp_Anym8CxvQF1ompDR_Isrmwsxjw/edit?usp=sharing' target='_blank' rel="noopener noreferrer">
+            <a href={"https://docs.google.com/document/d/1Op2L1tRLZZ4lw0tp_Anym8CxvQF1ompDR_Isrmwsxjw/edit?usp=sharing"}>
             <img className='Logo mx-3 my-3' src={PdfPng} alt='Pdf Img Link' />
             </a>
           </Nav.Link>

@@ -3,15 +3,35 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import AdobePng from '../Assets/Adobe-logo.png'
+import DiscordPng from '../Assets/Discord-logo.png'
+import CiscoPng from '../Assets/Cisco-Symbol.png'
+import TeslaPng from '../Assets/images323.png'
+import CodeStackPng from '../Assets/San_Joaquin_County_Office_of_Ed_Logo.png.webp'
+import { Link, useNavigate } from 'react-router-dom';
+
 
 function HomePageComponent() {
 
-  const cardTexts = [
-    "This is the text for the first card.",
-    "This is the text for the second card.",
-    "This is the text for the third card.",
-    "This is the text for the fourth card."
+
+  const cardImages = [
+    AdobePng,
+    DiscordPng,
+    CiscoPng,
+    TeslaPng
+  ]
+
+  const pageLinks = [
+    '/Adobe',
+    '/Discord',
+    '/Cisco',
+    '/Tesla',
   ];
+
+  const navigate = useNavigate();
+
+  const handleImageClick = (idx: number) => {
+    navigate(pageLinks[idx]);
+  };
 
   return (
     <>
@@ -20,11 +40,7 @@ function HomePageComponent() {
       {Array.from({ length: 4 }).map((_, idx) => (
         <Col key={idx}>
           <Card>
-            <Card.Img variant="top" src={AdobePng} />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>{cardTexts[idx]}</Card.Text>
-            </Card.Body>
+            <Card.Img onClick={() => handleImageClick(idx)} className='HomeImg p-2' variant="top" src={cardImages[idx]} />
           </Card>
         </Col>
       ))}
@@ -34,16 +50,8 @@ function HomePageComponent() {
      <Row xs={1} md={2} className="g-4 d-flex justify-content-center">
        {Array.from({ length: 1 }).map((_, idx) => (
          <Col key={idx}>
-           <Card>
-             <Card.Img variant="top" src="holder.js/100px160" />
-             <Card.Body>
-               <Card.Title>Card title</Card.Title>
-               <Card.Text>
-                 This is a longer card with supporting text below as a natural
-                 lead-in to additional content. This content is a little bit
-                 longer.
-               </Card.Text>
-             </Card.Body>
+           <Card as={Link} to='/CodeStack' >
+             <Card.Img className='HomeImgBottom p-2' variant="top" src={CodeStackPng} />
            </Card>
          </Col>
        ))}

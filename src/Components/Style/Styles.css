@@ -2,3 +2,84 @@
     width: 35px;
     height: 35px;
 }
+
+.HomeImg{
+    height: 200px;
+    width: 200px;
+}
+
+.HomeImg:hover {
+    border: 2px solid lightslategray;
+}
+
+.HomeImgBottom{
+    height: 150px;
+    width: 150px;
+}
+
+.HomeImgBottom:hover{
+    border: 2px solid lightslategray;
+}
+
+.hover:hover{
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FF0000;
+}
+
+.titleDiscord{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #002bff;
+}
+
+.titleCisco{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #00bceb;
+}
+
+.titleTesla{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #cc0000;
+}
+
+.header{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.textColor{
+    color: darkgrey;
+    font-size: 20px
+}
+
+/* .nav-link{
+    color: darkgray !important;
+} */
+
+.nav-tabs{
+    --bs-nav-tabs-border-width: var(--bs-border-width);
+    --bs-nav-tabs-border-color: var(--bs-border-color);
+    --bs-nav-tabs-border-radius: var(--bs-border-radius);
+    --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
+    --bs-nav-tabs-link-active-color: #A9A9A9 !important;
+    --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
+    --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
+    border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #00000 !important;
+    --bs-nav-link-hover-color: #A9A9A9 !important;
+
+}
